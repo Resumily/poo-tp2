@@ -52,12 +52,12 @@ public class exo07 {
         
         System.out.println("\nQuestion 3 :");
         int sum = somme_un_a(n);
-        System.out.println("Somme de 1 à 10 : " + sum);
+        System.out.println("Somme de 1 à "+n+" : " + sum);
         
         System.out.println("\nQuestion 4 :");
         System.out.print("Entrez un entier n : ");
         n = sc.nextInt();
         int fact = facto(n);
-        System.out.println("Factorielle de 5 : " + fact);
+        System.out.println("Factorielle de "+n+" : " + fact);
     }
 }
